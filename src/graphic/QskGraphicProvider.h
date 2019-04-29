@@ -12,7 +12,6 @@
 #include <memory>
 
 class QskGraphic;
-class QUrl;
 
 class QSK_EXPORT QskGraphicProvider : public QObject
 {

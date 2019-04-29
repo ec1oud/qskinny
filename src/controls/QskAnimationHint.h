@@ -32,6 +32,6 @@ class QSK_EXPORT QskAnimationHint
 };
 
 Q_DECLARE_METATYPE( QskAnimationHint )
-Q_DECLARE_TYPEINFO( QskAnimationHint, Q_PRIMITIVE_TYPE );
+//Q_DECLARE_TYPEINFO( QskAnimationHint, Q_PRIMITIVE_TYPE );
 
 #endif

@@ -8,16 +8,10 @@
 
 #include "QskNamespace.h"
 #include <qnamespace.h>
+#include <qquickitem.h>
 
 class QskTextColors;
 class QskTextOptions;
-
-class QString;
-class QFont;
-class QRectF;
-class QSizeF;
-class QQuickItem;
-class QSGTransformNode;
 
 namespace QskTextRenderer
 {

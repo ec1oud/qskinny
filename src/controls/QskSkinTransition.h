@@ -3,10 +3,9 @@
 
 #include "QskAnimationHint.h"
 #include "QskAspect.h"
+#include <qquickwindow.h>
 
 class QskSkin;
-class QQuickWindow;
-class QVariant;
 
 class QSK_EXPORT QskSkinTransition
 {

@@ -10,7 +10,6 @@
 
 class QskGraphic;
 class QskTextOptions;
-class QUrl;
 
 class QSK_EXPORT QskSubWindow : public QskPopup
 {

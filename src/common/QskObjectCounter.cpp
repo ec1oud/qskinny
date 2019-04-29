@@ -7,6 +7,7 @@
 
 #include <qdebug.h>
 #include <qset.h>
+#include <qobject.h>
 
 QSK_QT_PRIVATE_BEGIN
 #include <private/qhooks_p.h>

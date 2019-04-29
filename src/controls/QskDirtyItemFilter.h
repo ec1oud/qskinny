@@ -10,9 +10,7 @@
 
 #include <qobject.h>
 #include <qset.h>
-
-class QQuickWindow;
-class QQuickItem;
+#include <qquickitem.h>
 
 class QSK_EXPORT QskDirtyItemFilter : public QObject
 {

@@ -11,9 +11,7 @@
 #include <qmetatype.h>
 #include <qnamespace.h>
 #include <qsize.h>
-
-class QVariant;
-class QMarginsF;
+#include <qmargins.h>
 
 class QSK_EXPORT QskBoxShapeMetrics
 {
@@ -189,7 +187,7 @@ QSK_EXPORT QDebug operator<<( QDebug, const QskBoxShapeMetrics& );
 
 #endif
 
-Q_DECLARE_TYPEINFO( QskBoxShapeMetrics, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskBoxShapeMetrics, Q_MOVABLE_TYPE );
 Q_DECLARE_METATYPE( QskBoxShapeMetrics )
 
 #endif

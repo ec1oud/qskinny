@@ -8,18 +8,9 @@
 
 #include "QskAspect.h"
 #include <memory>
-
-typedef unsigned int QRgb;
-class QSizeF;
-class QRectF;
-class QColor;
-class QFont;
-class QMarginsF;
-struct QMetaObject;
-class QVariant;
-class QDebug;
-
-class QSGNode;
+#include <qmargins.h>
+#include <qrgb.h>
+#include <qsgnode.h>
 
 class QskControl;
 class QskAnimationHint;

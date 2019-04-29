@@ -7,11 +7,9 @@
 #define QSK_GRAPHIC_IO_H
 
 #include "QskGlobal.h"
+#include <qiodevice.h>
 
 class QskGraphic;
-class QString;
-class QIODevice;
-class QByteArray;
 
 namespace QskGraphicIO
 {

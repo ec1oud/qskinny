@@ -10,7 +10,6 @@
 
 class QskGraphic;
 class QskColorFilter;
-class QUrl;
 
 class QSK_EXPORT QskStatusIndicator : public QskControl
 {

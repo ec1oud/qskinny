@@ -9,8 +9,6 @@
 #include "QskGlobal.h"
 #include <qmetatype.h>
 
-class QDebug;
-
 class QSK_EXPORT QskSizePolicy
 {
     Q_GADGET
@@ -115,7 +113,7 @@ inline QskSizePolicy::Policy QskSizePolicy::verticalPolicy() const
 QSK_EXPORT QDebug operator<<( QDebug, const QskSizePolicy& );
 #endif
 
-Q_DECLARE_TYPEINFO( QskSizePolicy, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskSizePolicy, Q_MOVABLE_TYPE );
 Q_DECLARE_METATYPE( QskSizePolicy )
 
 #endif

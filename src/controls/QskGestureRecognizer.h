@@ -9,11 +9,8 @@
 #include "QskGlobal.h"
 
 #include <qnamespace.h>
+#include <qquickitem.h>
 #include <memory>
-
-class QQuickItem;
-class QEvent;
-class QMouseEvent;
 
 class QSK_EXPORT QskGestureRecognizer
 {

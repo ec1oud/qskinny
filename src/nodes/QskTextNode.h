@@ -10,12 +10,10 @@
 
 #include <qrect.h>
 #include <qsgnode.h>
+#include <qquickitem.h>
 
 class QskTextOptions;
 class QskTextColors;
-class QString;
-class QFont;
-class QQuickItem;
 
 class QSK_EXPORT QskTextNode : public QSGTransformNode
 {

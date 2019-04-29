@@ -10,7 +10,6 @@
 #include <qobject.h>
 
 class QskSkin;
-class QStringList;
 
 class QSK_EXPORT QskSkinFactory : public QObject
 {
@@ -25,6 +24,6 @@ class QSK_EXPORT QskSkinFactory : public QObject
 };
 
 #define QskSkinFactoryIID "org.qskinny.Qsk.QskSkinFactory/1.0"
-Q_DECLARE_INTERFACE( QskSkinFactory, QskSkinFactoryIID )
+//Q_DECLARE_INTERFACE( QskSkinFactory, QskSkinFactoryIID )
 
 #endif

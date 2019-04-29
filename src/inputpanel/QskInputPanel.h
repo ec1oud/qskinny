@@ -10,8 +10,6 @@
 #include <memory>
 
 class QskTextPredictor;
-class QString;
-class QStringList;
 
 class QSK_EXPORT QskInputPanel : public QskControl
 {

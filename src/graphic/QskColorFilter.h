@@ -13,11 +13,6 @@
 #include <qpair.h>
 #include <qvector.h>
 
-class QPen;
-class QBrush;
-class QVariant;
-class QDebug;
-
 class QSK_EXPORT QskColorFilter
 {
   public:

@@ -8,7 +8,6 @@
 
 #include "QskRangeControl.h"
 
-class QSGNode;
 class QskSkin;
 
 class QSK_EXPORT QskSlider : public QskRangeControl

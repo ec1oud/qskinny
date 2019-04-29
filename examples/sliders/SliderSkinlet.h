@@ -8,8 +8,6 @@
 
 #include <QskSliderSkinlet.h>
 
-class QSGTransformNode;
-
 class SliderSkinlet : public QskSliderSkinlet
 {
     using Inherited = QskSliderSkinlet;

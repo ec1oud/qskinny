@@ -7,9 +7,8 @@
 #define QSK_OBJECT_COUNTER_H
 
 #include "QskGlobal.h"
+#include <qobject.h>
 
-class QObject;
-class QDebug;
 class QskObjectCounterHook;
 
 class QSK_EXPORT QskObjectCounter

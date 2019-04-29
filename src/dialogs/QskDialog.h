@@ -9,11 +9,8 @@
 #include "QskGlobal.h"
 
 #include <qobject.h>
+#include <qwindow.h>
 #include <memory>
-
-class QString;
-class QStringList;
-class QWindow;
 
 #if defined( qskDialog )
 #undef qskDialog

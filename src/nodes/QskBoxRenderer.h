@@ -9,12 +9,11 @@
 #include "QskBoxShapeMetrics.h"
 
 #include <qrect.h>
+#include <qsggeometry.h>
 
 class QskBoxBorderMetrics;
 class QskBoxBorderColors;
 class QskGradient;
-
-class QSGGeometry;
 
 namespace QskVertex
 {

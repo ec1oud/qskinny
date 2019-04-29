@@ -10,6 +10,7 @@
 
 #include <qnamespace.h>
 #include <qrect.h>
+#include <qsgnode.h>
 
 #include <memory>
 
@@ -20,12 +21,6 @@ class QskGradient;
 class QskColorFilter;
 class QskGraphic;
 class QskTextOptions;
-
-class QSGNode;
-
-class QRectF;
-class QRect;
-class QSize;
 
 class QSK_EXPORT QskSkinlet
 {

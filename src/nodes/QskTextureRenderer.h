@@ -8,12 +8,10 @@
 
 #include "QskGlobal.h"
 #include <qnamespace.h>
+#include <qpainter.h>
 
 class QskGraphic;
 class QskColorFilter;
-
-class QPainter;
-class QSize;
 
 namespace QskTextureRenderer
 {

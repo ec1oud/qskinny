@@ -3,8 +3,6 @@
 
 #include <QskWindow.h>
 
-class QQuickItem;
-
 class MainWindow : public QskWindow
 {
   public:

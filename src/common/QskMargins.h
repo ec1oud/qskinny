@@ -12,8 +12,6 @@
 #include <qmetatype.h>
 #include <qnamespace.h>
 
-class QVariant;
-
 /*
    Having a wrapper like this feels a bit stupid, but unfortunately QMarginsF
    is not registered as Qt metatype and doing this in an external library
@@ -134,7 +132,8 @@ constexpr qreal QskMargins::length( Qt::Orientation orientation ) const noexcept
         ? ( left() + right() ) : ( top() + bottom() );
 }
 
-Q_DECLARE_TYPEINFO( QskMargins, Q_MOVABLE_TYPE );
+// error: explicit specialization of ‘template<class T> class TestNamespace::QTypeInfo’ outside its namespace must use a nested-name-specifier [-fpermissive]
+//Q_DECLARE_TYPEINFO( QskMargins, Q_MOVABLE_TYPE );
 Q_DECLARE_METATYPE( QskMargins )
 
 #endif

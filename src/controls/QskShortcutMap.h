@@ -9,9 +9,6 @@
 #include "QskMetaFunction.h"
 #include <qquickwindow.h>
 
-class QQuickItem;
-class QKeySequence;
-
 class QSK_EXPORT QskShortcutMap
 {
   public:

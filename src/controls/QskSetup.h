@@ -14,10 +14,7 @@
 #include <memory>
 
 class QskSkin;
-class QQuickItem;
 class QskGraphicProvider;
-
-class QLocale;
 
 #if defined( qskSetup )
 #undef qskSetup

@@ -10,9 +10,6 @@
 
 class QskInputEngine;
 
-class QString;
-class QLocale;
-
 class QSK_EXPORT QskInputPanelBox : public QskBox
 {
     Q_OBJECT

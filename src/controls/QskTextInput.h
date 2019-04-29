@@ -7,8 +7,7 @@
 #define QSK_TEXT_INPUT_H
 
 #include "QskControl.h"
-
-class QValidator;
+#include <qvalidator.h>
 
 class QSK_EXPORT QskTextInput : public QskControl
 {

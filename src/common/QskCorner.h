@@ -11,9 +11,6 @@
 #include <qmetatype.h>
 #include <qnamespace.h>
 
-class QDebug;
-class QSizeF;
-
 class QSK_EXPORT QskCorner
 {
     Q_GADGET
@@ -47,7 +44,7 @@ inline const QskBoxShapeMetrics& QskCorner::metrics() const
     return m_metrics;
 }
 
-Q_DECLARE_TYPEINFO( QskCorner, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskCorner, Q_MOVABLE_TYPE );
 Q_DECLARE_METATYPE( QskCorner )
 
 #endif

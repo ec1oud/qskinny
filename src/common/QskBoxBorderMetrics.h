@@ -12,9 +12,6 @@
 #include <qnamespace.h>
 #include <qsize.h>
 
-class QDebug;
-class QVariant;
-
 class QSK_EXPORT QskBoxBorderMetrics
 {
   public:
@@ -117,7 +114,7 @@ QSK_EXPORT QDebug operator<<( QDebug, const QskBoxBorderMetrics& );
 
 #endif
 
-Q_DECLARE_TYPEINFO( QskBoxBorderMetrics, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskBoxBorderMetrics, Q_MOVABLE_TYPE );
 Q_DECLARE_METATYPE( QskBoxBorderMetrics )
 
 #endif

@@ -14,8 +14,6 @@
 
 #include <memory>
 
-class QKeySequence;
-
 /*
     For QML, with C++ there is also QskShortcutMap that does
     not need to create QObjects per shortcut

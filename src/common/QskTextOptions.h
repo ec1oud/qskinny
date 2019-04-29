@@ -11,8 +11,6 @@
 #include <qmetatype.h>
 #include <qtextoption.h>
 
-class QDebug;
-
 class QSK_EXPORT QskTextOptions
 {
     Q_GADGET
@@ -95,7 +93,7 @@ QSK_EXPORT uint qHash( const QskTextOptions&, uint seed = 0 ) noexcept;
 QSK_EXPORT QDebug operator<<( QDebug, const QskTextOptions& );
 #endif
 
-Q_DECLARE_TYPEINFO( QskTextOptions, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskTextOptions, Q_MOVABLE_TYPE );
 Q_DECLARE_METATYPE( QskTextOptions )
 
 #endif

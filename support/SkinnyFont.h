@@ -7,8 +7,7 @@
 #define SKINNY_FONT_H_
 
 #include "SkinnyGlobal.h"
-
-class QGuiApplication;
+#include <qguiapplication.h>
 
 namespace SkinnyFont
 {

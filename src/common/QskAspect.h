@@ -523,11 +523,9 @@ namespace std
     };
 }
 
-Q_DECLARE_TYPEINFO( QskAspect::Aspect, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskAspect::Aspect, Q_MOVABLE_TYPE );
 
 #ifndef QT_NO_DEBUG_STREAM
-
-class QDebug;
 
 QSK_EXPORT QDebug operator<<( QDebug, const QskAspect::Aspect& );
 QSK_EXPORT QDebug operator<<( QDebug, const QskAspect::Type& );

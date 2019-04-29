@@ -6,7 +6,7 @@
 #ifndef BENCHMARK_
 #define BENCHMARK_ 1
 
-class QString;
+#include <qstring.h>
 
 namespace Benchmark
 {

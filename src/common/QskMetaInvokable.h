@@ -12,11 +12,6 @@
 #include <qnamespace.h>
 
 class QskMetaFunction;
-struct QMetaObject;
-class QMetaMethod;
-class QMetaProperty;
-class QObject;
-class QByteArray;
 
 class QSK_EXPORT QskMetaInvokable
 {

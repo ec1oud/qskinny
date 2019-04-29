@@ -12,11 +12,6 @@ class QskListView;
 class QskListViewNode;
 class QskTextNode;
 
-class QMarginsF;
-class QSizeF;
-class QRectF;
-class QSGTransformNode;
-
 class QSK_EXPORT QskListViewSkinlet : public QskScrollViewSkinlet
 {
     Q_GADGET

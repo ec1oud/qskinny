@@ -26,7 +26,6 @@ class QskGraphicProvider;
 class QskAnimationHint;
 class QskSkinHintTable;
 
-class QVariant;
 class QskMargins;
 class QskGradient;
 class QskBoxShapeMetrics;

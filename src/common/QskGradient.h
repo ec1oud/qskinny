@@ -12,9 +12,6 @@
 #include <qmetatype.h>
 #include <qvector.h>
 
-class QDebug;
-class QVariant;
-
 class QSK_EXPORT QskGradientStop
 {
     Q_GADGET
@@ -169,7 +166,7 @@ inline bool QskGradient::operator!=( const QskGradient& other ) const
     return ( !( *this == other ) );
 }
 
-Q_DECLARE_TYPEINFO( QskGradientStop, Q_MOVABLE_TYPE );
+//Q_DECLARE_TYPEINFO( QskGradientStop, Q_MOVABLE_TYPE );
 
 Q_DECLARE_METATYPE( QskGradientStop )
 Q_DECLARE_METATYPE( QskGradient )

@@ -9,12 +9,11 @@
 #include "QskGlobal.h"
 
 #include <qnamespace.h>
+#include <qquickitem.h>
 #include <limits>
 
 class QskSizePolicy;
 class QskControl;
-class QQuickItem;
-class QSizeF;
 
 namespace std { template< typename T > class function; }
 

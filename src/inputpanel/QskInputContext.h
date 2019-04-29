@@ -11,6 +11,7 @@
 #include <qinputmethod.h>
 #include <qnamespace.h>
 #include <qobject.h>
+#include <qquickitem.h>
 
 #include <memory>
 
@@ -19,7 +20,6 @@ class QskInputPanel;
 class QskInputEngine;
 class QskPopup;
 class QskWindow;
-class QQuickItem;
 
 class QSK_EXPORT QskInputContextFactory : public QObject
 {

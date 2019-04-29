@@ -8,8 +8,6 @@
 
 #include "QskControl.h"
 
-template< typename T > class QVector;
-
 class QSK_EXPORT QskFocusIndicator : public QskControl
 {
     Q_OBJECT

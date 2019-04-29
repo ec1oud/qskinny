@@ -11,9 +11,6 @@
 #include <qcolor.h>
 #include <qmetatype.h>
 
-class QDebug;
-class QVariant;
-
 class QSK_EXPORT QskTextColors
 {
   public:

@@ -22,8 +22,6 @@ class QskGeometryChangeEvent;
 class QskWindowChangeEvent;
 class QskGestureEvent;
 
-template< typename T > class QVector;
-
 class QSK_EXPORT QskControl : public QQuickItem, public QskSkinnable
 {
     Q_OBJECT

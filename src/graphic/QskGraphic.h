@@ -11,15 +11,12 @@
 #include <qmetatype.h>
 #include <qpaintdevice.h>
 #include <qshareddata.h>
+#include <qpainterpath.h>
+#include <qpaintengine.h>
 
 class QskPainterCommand;
 class QskColorFilter;
 class QskGraphicPaintEngine;
-class QImage;
-class QPixmap;
-class QPainterPath;
-class QPaintEngine;
-class QPaintEngineState;
 
 class QSK_EXPORT QskGraphic : public QPaintDevice
 {

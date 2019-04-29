@@ -8,8 +8,6 @@
 
 #include <QskMetaInvokable.h>
 
-class QObject;
-
 class Callback
 {
   public:

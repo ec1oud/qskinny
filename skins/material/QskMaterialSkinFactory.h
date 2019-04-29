@@ -14,7 +14,7 @@ class QSK_MATERIAL_EXPORT QskMaterialSkinFactory : public QskSkinFactory
     Q_OBJECT
 
     Q_PLUGIN_METADATA( IID QskSkinFactoryIID FILE "metadata.json" )
-    Q_INTERFACES( QskSkinFactory )
+//    Q_INTERFACES( QskSkinFactory )
 
   public:
     QskMaterialSkinFactory( QObject* parent = nullptr );

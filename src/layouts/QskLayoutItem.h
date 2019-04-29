@@ -7,6 +7,7 @@
 #define QSK_LAYOUT_ITEM_H
 
 #include "QskGlobal.h"
+#include <qquickitem.h>
 
 QSK_QT_PRIVATE_BEGIN
 /*
@@ -16,8 +17,6 @@ QSK_QT_PRIVATE_BEGIN
 
 #include <private/qgridlayoutengine_p.h>
 QSK_QT_PRIVATE_END
-
-class QQuickItem;
 
 class QskLayoutItem : public QGridLayoutItem
 {

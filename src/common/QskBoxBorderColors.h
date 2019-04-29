@@ -11,8 +11,6 @@
 #include <qcolor.h>
 #include <qmetatype.h>
 
-class QDebug;
-
 class QSK_EXPORT QskBoxBorderColors
 {
   public:

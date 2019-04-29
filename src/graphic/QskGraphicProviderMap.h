@@ -10,7 +10,6 @@
 #include <memory>
 
 class QskGraphicProvider;
-class QString;
 
 class QSK_EXPORT QskGraphicProviderMap
 {

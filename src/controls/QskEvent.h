@@ -10,11 +10,10 @@
 
 #include <qcoreevent.h>
 #include <qrect.h>
+#include <qquickwindow.h>
 
 class QskGesture;
 class QskPopup;
-class QQuickWindow;
-class QQuickItem;
 
 class QSK_EXPORT QskEvent : public QEvent
 {

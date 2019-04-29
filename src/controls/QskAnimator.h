@@ -1,3 +1,4 @@
+
 /******************************************************************************
  * QSkinny - Copyright (C) 2016 Uwe Rathmann
  * This file may be used under the terms of the QSkinny License, Version 1.0
@@ -10,10 +11,7 @@
 
 #include <qeasingcurve.h>
 #include <qobjectdefs.h>
-
-class QQuickWindow;
-class QObject;
-class QDebug;
+#include <qquickwindow.h>
 
 class QSK_EXPORT QskAnimator
 {

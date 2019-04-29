@@ -7,14 +7,14 @@
 #define QSK_SQUIEK_SKIN_FACTORY_H
 
 #include "QskSquiekGlobal.h"
-#include <QskSkinFactory.h>
+#include "QskSkinFactory.h"
 
 class QSK_SQUIEK_EXPORT QskSquiekSkinFactory : public QskSkinFactory
 {
     Q_OBJECT
 
     Q_PLUGIN_METADATA( IID QskSkinFactoryIID FILE "metadata.json" )
-    Q_INTERFACES( QskSkinFactory )
+//    Q_INTERFACES( QskSkinFactory )
 
   public:
     QskSquiekSkinFactory( QObject* parent = nullptr );
