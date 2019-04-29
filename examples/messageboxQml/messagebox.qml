@@ -1,6 +1,6 @@
 import QtQuick 2.0 
 import Skinny 1.0 as Qsk
-import "qrc:/qml"
+//import "qrc:/qml"
 
 Qsk.Window 
 {
